@@ -93,7 +93,7 @@ Understanding the machine learning model's reasoning behind certain predictions 
 
 Using a variety of machine learning models, the table gives a thorough summary of the anomaly detection outcomes for 1 of the 9 IoT devices. Performance measures such as accuracy, precision, recall, and F-1 score are displayed in the columns, with each row representing a distinct model. Notably, all of the models—Decision Tree, Random Forest, Bagging, Blending, Stacking, and Voting—show consistently high scores on all measures, with recall, F-1 Score, and accuracy and precision all approaching 0.99. These algorithms demonstrate remarkable efficacy in precisely detecting data anomalies. On the other hand, the ADA model has somewhat lower scores, suggesting a less robust anomaly detection system. While the performance of the MLP and DNN models varies, the SVM model performs moderately. 
 
-<h4Feature Importance for device 8 using Permutation Feature Importance (PFI) with different models></h4>
+<h4>Feature Importance for device 8 using Permutation Feature Importance (PFI) with different models></h4>
 
 ![d7_MLP_pfi_feature_importance](https://github.com/agummadi1/XAI_for_IoT_Systems/assets/154301345/6415d163-3022-459b-9b6d-789a0f63e241)
 ![d7_random_forest_pfi_feature_importance](https://github.com/agummadi1/XAI_for_IoT_Systems/assets/154301345/e31720d9-ea80-4f13-9994-9b892b82c98a)
